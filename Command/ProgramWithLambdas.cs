@@ -13,12 +13,20 @@ class ProgramWithLambdas
         Stereo stereo = new Stereo("Living Room");
 
 
-        remoteControl.SetCommand(0, () => livingRoomLight.On(), () => livingRoomLight.Off());
-        remoteControl.SetCommand(1, () => kitchenLight.On(), () => kitchenLight.Off());
-        remoteControl.SetCommand(2, () => stereo.On(), () => stereo.Off());
-        remoteControl.SetCommand(3, () => ceilingFan.Low(), () => ceilingFan.Off());
-        remoteControl.SetCommand(4, () => ceilingFan.Medium(), () => ceilingFan.Off());
-        remoteControl.SetCommand(5, () => ceilingFan.High(), () => ceilingFan.Off());
+        // Lambdas are possible but it looks bit worse
+        // remoteControl.SetCommand(0, () => livingRoomLight.On(), () => livingRoomLight.Off());
+        // remoteControl.SetCommand(1, () => kitchenLight.On(), () => kitchenLight.Off());
+        // remoteControl.SetCommand(2, () => stereo.On(), () => stereo.Off());
+        // remoteControl.SetCommand(3, () => ceilingFan.Low(), () => ceilingFan.Off());
+        // remoteControl.SetCommand(4, () => ceilingFan.Medium(), () => ceilingFan.Off());
+        // remoteControl.SetCommand(5, () => ceilingFan.High(), () => ceilingFan.Off());
+
+        remoteControl.SetCommand(0, livingRoomLight.On, livingRoomLight.Off);
+        remoteControl.SetCommand(1, kitchenLight.On, kitchenLight.Off);
+        remoteControl.SetCommand(2, stereo.On, stereo.Off);
+        remoteControl.SetCommand(3, ceilingFan.Low, ceilingFan.Off);
+        remoteControl.SetCommand(4, ceilingFan.Medium, ceilingFan.Off);
+        remoteControl.SetCommand(5, ceilingFan.High, ceilingFan.Off);
 
         System.Console.WriteLine(remoteControl);
 
