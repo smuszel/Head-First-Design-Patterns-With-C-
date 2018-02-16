@@ -1,0 +1,4 @@
+public class NYClamPizza: Pizza
+{
+    
+}
