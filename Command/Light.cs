@@ -1,6 +1,7 @@
 public class Light
 {
     public string location;
+    
     public Light(string location)
     {
         this.location = location;

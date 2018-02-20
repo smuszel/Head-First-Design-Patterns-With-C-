@@ -2,6 +2,7 @@ public class AnotherDisplay
 {
     private float temperature;
     private float humidity;
+    
     public AnotherDisplay(IWeatherEvent weatherData)
     {
         weatherData.WeatherDataEvent += Update;

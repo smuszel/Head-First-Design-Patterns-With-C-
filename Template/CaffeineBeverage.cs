@@ -14,6 +14,7 @@ public abstract class CaffeineBeverage
 
     public abstract void Brew();
     public abstract void AddCondiments();
+    
     public void BoilWater()
     {
         System.Console.WriteLine("Boiling water");

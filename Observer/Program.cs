@@ -1,6 +1,4 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
     static void Main()
     {
@@ -11,6 +9,5 @@ class Program
         weatherData.SetMeasurments(80, 65, 30.4f);
         weatherData.SetMeasurments(82, 70, 29.8f);
         weatherData.SetMeasurments(78, 90, 29.7f);
-
     }
 }

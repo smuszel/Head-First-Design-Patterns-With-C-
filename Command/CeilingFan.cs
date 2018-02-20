@@ -2,9 +2,9 @@ public class CeilingFan
 {
     public enum speeds {OFF, LOW, MEDIUM, HIGH} 
     public string location;
-
     public int Speed { get; set; }
     public int PrevSpeed { get; set; }
+
     public CeilingFan(string location)
     {
         this.location = location;
@@ -12,6 +12,7 @@ public class CeilingFan
         PrevSpeed = (int)speeds.OFF;
 
     }
+    
     public void On()
     {
         System.Console.WriteLine($"Ceiling fan is on in {location}");
@@ -44,5 +45,4 @@ public class CeilingFan
     {
         System.Console.WriteLine($"Speed level is now {Speed}");
     }
-    
 }

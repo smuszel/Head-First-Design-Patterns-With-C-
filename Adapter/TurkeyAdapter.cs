@@ -1,6 +1,7 @@
 public class TurkeyAdapter: IDuck
 {
     ITurkey turkey;
+    
     public TurkeyAdapter(ITurkey turkey)    
     {
         this.turkey = turkey;

@@ -3,6 +3,7 @@ public class AnotherDisplay: IObserver, IDisplay
     private float temperature;
     private float humidity;
     private ISubject weatherData;
+    
     public AnotherDisplay(ISubject weatherData)
     {
         this.weatherData = weatherData;

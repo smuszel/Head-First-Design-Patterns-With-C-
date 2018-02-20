@@ -28,6 +28,7 @@ public class GumballMachine
             State = soldOutState;
         }
     }
+    
     public void InsertQuarter()
     {
         State.InsertQuarter();

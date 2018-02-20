@@ -1,9 +1,7 @@
 public class Stereo
 {
     public int Volume { get; set; }
-
     public bool CD { get; set; }
-
     public string location;
 
     public Stereo(string location)

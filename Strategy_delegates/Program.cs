@@ -1,7 +1,4 @@
-﻿using System;
-
-
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
@@ -19,6 +16,7 @@ class Program
     {
         System.Console.WriteLine("Quack");
     }
+
     public static void FlyWithWings()
     {
         System.Console.WriteLine("I'm flying");

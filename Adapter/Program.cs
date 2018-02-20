@@ -1,7 +1,4 @@
-﻿using System;
-
-
-class Program
+﻿class Program
 {
     static void Main()
     {
@@ -16,6 +13,5 @@ class Program
         System.Console.WriteLine("\nThe Duck says...");
         duck.Quack();
         duck.Fly();
-
     }
 }

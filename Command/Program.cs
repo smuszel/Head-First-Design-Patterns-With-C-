@@ -1,6 +1,4 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
     static void RootMain()
     {
@@ -52,7 +50,7 @@ class Program
         remoteControl.OnButtonPushed(2);
         remoteControl.OffButtonPushed(2);
         remoteControl.UndoButtonPushed();
-
+        
         remoteControl.OnButtonPushed(3);
         remoteControl.OnButtonPushed(4);
         remoteControl.OnButtonPushed(5);

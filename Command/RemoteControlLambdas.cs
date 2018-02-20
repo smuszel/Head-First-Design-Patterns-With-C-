@@ -6,6 +6,7 @@ public class RemoteControlLambdas
 {
     Action[] onCommands;
     Action[] offCommands;
+    
     public RemoteControlLambdas()
     {
         offCommands = new Action[7];

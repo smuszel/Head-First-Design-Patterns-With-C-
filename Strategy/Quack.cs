@@ -4,5 +4,4 @@ public class CasualQuack: IQuack
     {
         System.Console.WriteLine("Quack");
     }
-
 }

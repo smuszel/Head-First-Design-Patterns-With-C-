@@ -16,7 +16,7 @@ public class CurrentConditionsDisplay: IObserver, IDisplay
         this.humidity = humidity;
         Display();
     }
-
+    
     public void Display()
     {
         System.Console.WriteLine($"Current conditions: {temperature} degrees and {humidity} % humidity");
